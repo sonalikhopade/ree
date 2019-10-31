@@ -1,0 +1,91 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+
+<div class="container-fluid">
+<div class="site">
+  <div class="site-content">
+    <!-- <nav class="navbar navbar-expand ">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" (click)="toggleNavbar()" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNavAltMarkup" [ngClass]="{'show' : navbarOpen}">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link " [routerLink]="['/home']" routerLinkActive="active">Home </a>
+        <a class="nav-item nav-link" [routerLink]="['/about']" routerLinkActive="active">About</a>
+        <a class="nav-item nav-link" [routerLink]="['/portfolio']" routerLinkActive="active">Portfolio</a>
+        <a class="nav-item nav-link" [routerLink]="['/contact']" routerLinkActive="active">Contact</a>
+      </div>
+    </div>
+  </nav> -->   <nav class="navbar navbar-expand-lg navbar-dark ">
+      <a class="navbar-brand font-tertiary h3" href="index.html"><img src="assets/images/LOGO_22.png" alt="Myself" style="height: 45px;width: 80px"></a>
+      <button class="navbar-toggler" type="button"  (click)="toggleNavbar()" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation" [ngClass]="{'show' : navbarOpen}">
+          <div class="navbar-nav ">
+                  <a class=" nav-item nav-link" [routerLink]="['/home']" routerLinkActive="active">Home</a>
+        
+                  <a class="nav-item nav-link" [routerLink]="['/about']" routerLinkActive="active">About</a>
+       
+                  <a class="nav-item nav-link" [routerLink]="['goToUrl()']" (click)="goToUrl()" routerLinkActive="active">Blog</a>
+              
+                  <a class="nav-item nav-link" [routerLink]="['/portfolio']" routerLinkActive="active">Portfolio</a>
+              
+                  <a class="nav-item nav-link" [routerLink]="['/contact']" routerLinkActive="active">Contact</a>
+                </div>
+      </div>
+  </nav>
+
+    <main>
+      
+<router-outlet></router-outlet>
+
+    </main>
+   
+    <div class=" background-footer">
+            <footer class="footer-section" style="text-align: center; background-color: #414042">
+                
+                <div class="section background-footer">
+                    <div class="container ">
+                        <div class="row background-footer">
+                            <div class="col-md-3 " style="padding-top:30px">
+                                <h5 class="text-light ">Email</h5>
+                                <a href="mailto:info@reeb.in" style="font-size: 18px;font-family: sans-serif;color:#fff">info@reeb.in</a>
+                            </div>
+                            <div class="col-md-3 " style="padding-top:30px">
+                                <h5 class="text-light">Phone</h5>
+                                <a href="tel:+91 79773 743 17" style="font-size: 18px;color: aliceblue">+91 79773 743 17</a>
+                            </div>
+                            <div class="col-md-3 ">
+                                <h5 class="text-light" style="padding-top:30px">Address</h5>
+                                <p class="text-white paragraph-lg font-secondary" style="font-family: sans-serif;font-size: 18px">Mumbai, India</p>
+                            </div>
+                               <div class="col-md-3 ">
+                                <h5 class="text-light" style="padding-top:30px">Social</h5>
+                                <p>
+                                    <a href="https://www.facebook.com/ReebInc/"><i class="fa fa-facebook-f fa-2x text-white p-1" ></i></a>
+        
+                                    <a href="https://www.instagram.com/reebinc/"><i class="fa fa-instagram fa-2x text-white p-1" ></i></a>
+                                    
+                                     <a href="https://twitter.com/reeb_in"><i class="fa fa-twitter fa-2x text-white p-1" ></i></a>
+                                    
+                                    <a href="https://www.linkedin.com/company/reebinc"><i class="fa fa-linkedin fa-2x text-white p-1"></i></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-top text-center border-dark py-5 ">
+                    <p class="mb-0 text-light ">Copyright ©
+                        <script>
+                            var CurrentYear = new Date().getFullYear()
+                            document.write(CurrentYear)
+                        </script> <a href="reeb.in">Reeb Inc.</a></p>
+                </div>
+            </footer>
+            </div>
+  </div>
+</div>
+</div>

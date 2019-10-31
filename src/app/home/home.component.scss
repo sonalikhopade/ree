@@ -1,0 +1,125 @@
+
+#animate {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #ed1651;
+    
+    animation: move 5s ease infinite;
+  }
+  
+  @keyframes move {
+    50% {
+       top: 150px;
+       left: 100px;
+    }
+  }
+  
+.layer {
+    position: absolute;
+    z-index: 1;
+  }
+  .layer-bg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  #l5 {
+    top: 100px;
+    right: 150px;
+  }
+  #l5 {
+    top: 100px;
+    right: -150px;
+  }
+  .layer {
+    position: absolute;
+    z-index: 1;
+  }
+  #l1 {
+    top: 600px;
+    left: 30px;
+    
+  }
+  
+#shape {
+    top: 150px;
+    right: 40%;
+  }  
+  @media (max-width:629px) {
+    img#optionalstuff {
+      display: none;
+    }
+  }
+  .page-title-alt .bg-shape-2 {
+    position: absolute;
+    left: 70px;
+    top: 100px;
+  }
+  .page-title .bg-shape-2 {
+    position: absolute;
+    left: -20px;
+    top: -10px;
+  }
+  .page-title .bg-shape-3 {
+    position: absolute;
+    left: 10%;
+    top: 100px;
+  }
+  .page-title-alt .bg-shape-3 {
+    position: absolute;
+    left: 30%;
+    top: 50px;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  .page-title-alt .bg-shape-1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .page-title .bg-shape-1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }  
+  /* slick slider */
+.slick-dots {
+    text-align: center;
+    padding-left: 0;
+  }
+  
+  .slick-dots li {
+    display: inline-block;
+    margin: 2px;
+  }
+  
+  .slick-dots li.slick-active button {
+    background: #fff;
+    width: 25px;
+  }
+  
+  .slick-dots li button {
+    height: 6px;
+    width: 12px;
+    background: rgba(255, 255, 255, 0.5);
+    color: transparent;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .2s ease;
+    border: 0;
+  }
+  
+  /* /slick slider */
+  
+.d-unset {
+    display: unset !important;
+  }
+  
+.outline-0 {
+    outline: 0 !important;
+  }

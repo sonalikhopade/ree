@@ -1,0 +1,128 @@
+[ {
+    "name": "Ashvira SM Post",
+    "description": "mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus",
+    "type": "branding",
+    "preview": "assets/images/social media/02-march (2).png"
+  }, {
+    "name": "Signature SM Post",
+    "description": "nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla",
+    "type": "branding",
+    "preview": "assets/images/social media/10 feb.jpg"
+  }, {
+    "name": "Ashvira SM Post",
+    "description": "primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel",
+    "type": "branding",
+    "preview": "assets/images/social%20media/Ashvira_June%2019_fathers%20day-01%20(1)%20(1).png"
+  }, {
+    "name": "USTC SM Post",
+    "description": "convallis morbi odio odio elementum eu",
+    "type": "Branding",
+    "preview": "assets/images/social media/Rahul Speaks English-01.png"
+  }, {
+    "name": "USTC Social Media",
+    "description": "convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum",
+    "type": "digitalwork",
+    "preview": "assets/images/social media/Ustc_july19_events-01 (1).png"
+  }, {
+    "name": "Suryam SM Post",
+    "description": "libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis",
+    "type": "digitalwork",
+    "preview": "assets/images/social media/suryam_March19_shervani-01.png"
+  }, {
+    "name": "Ustc Logo",
+    "description": "est risus auctor sed tristique in tempus sit amet sem",
+    "type": "branding",
+    "preview": "assets/images/reebimages/Logo_new-02.png"
+  }, 
+  
+    {
+    "name": "Aishana Logo ",
+    "description": "est risus auctor sed tristique in tempus sit amet sem",
+    "type": "branding",
+    "preview": "assets/images/AishanaLogo.jpg"
+  },
+  {
+    "name": "Reeb logo",
+    "description": "est risus auctor sed tristique in tempus sit amet sem",
+    "type": "branding",
+    "preview": "assets/images/reeb-01.png"
+  },
+  {
+    "name": "Reeb Emailer",
+    "description": "nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac",
+    "type": "digitaltwork",
+    "preview": "assets/images/Reeb-emailernew.png"
+  },
+  {
+    "name": "Flyer Design",
+    "description": "est risus auctor sed tristique in tempus sit amet sem",
+    "type": "branding",
+    "preview": "assets/images/reebimages/Shaan%20flyers-01%20(2).jpg"
+  },
+  {
+    "name": "Little Saints Flyer",
+    "description": "est risus auctor sed tristique in tempus sit amet sem",
+    "type": "printwork",
+    "preview": "assets/images/TWHS1190-e1534760648179-new.jpg"
+  },
+  {
+    "name": "Liner Illutration",
+    "description": "est risus auctor sed tristique in tempus sit amet sem",
+    "type": "illustration",
+    "preview": "assets/images/reebimages/fairy%20tales.png"
+  },
+  {
+    "name": "Illutration In Process",
+    "description": "est risus auctor sed tristique in tempus sit amet sem",
+    "type": "illustration",
+    "preview": "assets/images/reebimages/Illustration_5.png"
+  },
+  {
+    "name": "Liner Illutration",
+    "description": "est risus auctor sed tristique in tempus sit amet sem",
+    "type": "illustration",
+    "preview": "assets/images/reebimages/flowers%20to%20love.png"
+  },
+  {
+    "name": "Halla Gulla",
+    "description": "est risus auctor sed tristique in tempus sit amet sem",
+    "type": "printwork",
+    "preview": "assets/images/hallagulla.jpg"
+  },
+  {
+    "name": "Visiting QR Code",
+    "description": "est risus auctor sed tristique in tempus sit amet sem",
+    "type": "printwork",
+    "preview": "assets/images/reebimages/visiting%20card-06.jpg"
+  },
+  {
+    "name": "Signature",
+    "description": "est risus auctor sed tristique in tempus sit amet sem",
+    "type": "digitalwork",
+    "preview": "assets/images/reebimages/Signature_july19-01.png"
+  },
+
+  {
+    "name": "Spectrum Static Page",
+    "description": "est risus auctor sed tristique in tempus sit amet sem",
+    "type": "website",
+    "preview": "assets/images/reebimages/website.jpg"
+  },
+  {
+    "name": "Suryam Home Page",
+    "description": "est risus auctor sed tristique in tempus sit amet sem",
+    "type": "website",
+    "preview": "assets/images/reebimages/3%20(1).jpg"
+  },
+  {
+    "name": "Cap CMS Website",
+    "description": "est risus auctor sed tristique in tempus sit amet sem",
+    "type": "website",
+    "preview": "assets/images/reebimages/portfolio-2%20(2).jpg"
+  }
+]
+
+
+
+
+  

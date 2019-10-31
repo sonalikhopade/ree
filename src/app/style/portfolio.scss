@@ -1,0 +1,164 @@
+
+.site{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.site-content{
+    flex: 1;
+}
+
+.header{
+    background-color: #414042;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 600px;
+}
+.navbar{
+    background:#414042;
+    .navbar-nav .nav-link {
+        color: #fff;
+        padding: 1rem 0.5rem;
+        transition: color 0.2s ease-in;
+
+        &.active{
+        color: #2b93d1;
+        }
+        
+    }
+}
+.navigation {
+    padding: 40px 130px;
+    transition: .3s ease;
+  }
+  
+  .navigation.nav-bg {
+    background-color: #414042;
+    padding: 15px 100px;
+  }
+  
+  @media (max-width: 991px) {
+    .navigation.nav-bg {
+      padding: 15px 20px;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .navigation {
+      padding: 20px;
+      background: #414042;
+    }
+  }
+
+  .navbar .nav-item .nav-link {
+    font-family: "BwNistaInt-xBd";
+    text-transform: uppercase;
+    /* padding: 15px; */
+  }
+  
+  .navbar .nav-item.active {
+    font-weight: bold;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+  }
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #2b93d1 !important;
+  }
+  
+  .btn-transparent:active, .btn-transparent:hover {
+    background-color: #f37021;
+  }
+  .btn-transparent {
+  
+    background-color: #2B93D1;
+    font-weight: bold;
+     
+  }
+  
+.section {
+    padding-top: 20px;
+    padding-bottom: 80px;
+  
+  }
+  
+  
+  .section-title {
+    margin-bottom: 80px;
+  
+  }
+
+      .hover-bg-primary:hover {
+        background: #414042;
+      }
+      
+      .hover-bg-primary:hover * {
+        color: #fff;
+      }
+      
+      .active-bg-primary {
+        transition: .3s ease;
+        /* background: #f37021; */
+      }
+      
+      .active-bg-primary * {
+        color: #fff;
+      }
+      
+      .active-bg-primaryorange{
+        background: #2b93d1;
+        text-emphasis-color: #fff;
+      }
+      .active-bg-grey{
+        background: #eaeaea;
+      }
+      .active-bg-white{
+        background: #fff;
+      }
+      .active-bg-black{
+        background-color: #414042;
+      }
+      .hover-shadow {
+        transition: .2s ease;
+      }
+      
+      .hover-shadow:hover {
+        box-shadow: 0px 18px 40px 8px rgba(224, 241, 255, 0.54) !important;
+      }
+      
+      .d-unset {
+        display: unset !important;
+      }
+     
+      .about-img{
+         background-image: url(assets/images/reebimages/about-us.png);
+        background-size: cover;
+        background-position: bottom;
+        min-height: 700px;
+    }
+    .portfolioimg{
+      background-image: url(assets/images/Portfolioimg.png);
+      background-size: cover;
+      background-position: bottom;
+      min-height: 700px;
+    }
+    .contactimg{
+      background-image: url(assets/images/reebimages/contact-us-.png);
+      background-size: cover;
+      background-position: bottom;
+      min-height: 700px;
+    }
+
+    // portfolio filter
+    .filter-card {
+      mat-card-header-text {
+        margin: 0rem;
+      }
+
+    }
+    .mb-4{
+      padding-bottom: 30px;
+    }

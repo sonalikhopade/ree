@@ -1,0 +1,16 @@
+{
+    "live": {
+    "username": "root",
+    "password": "root",
+    "database": "adb",
+    "host": "192.168.1.29",
+    "dialect": "mysql",
+    "define": {
+      "underscored": true,
+      "freezeTableName": true
+    },
+    "operatorsAliases": false,
+    "timezone": "+05:30",
+    "logging": false
+}
+}
